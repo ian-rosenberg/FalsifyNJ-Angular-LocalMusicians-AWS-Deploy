@@ -1,0 +1,15 @@
+@Falsify_Site.Server_HostAddress = http://falsify-api.us-east-2.elasticbeanstalk.com
+@baseUrl = http://falsify-api.us-east-2.elasticbeanstalk.com
+
+GET {{baseUrl}}/api/Shows
+Accept: application/json
+
+###
+GET {{baseUrl}}/weatherforecast/{{cityName}}/20-Jun-2024
+Accept: application/json
+
+###
+POST {{baseUrl}}/api/Contact
+Accept: application/json
+Content-Type: application/json
+Accept: application/json

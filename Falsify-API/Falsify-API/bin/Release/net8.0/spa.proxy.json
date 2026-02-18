@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\Ian\\source\\repos\\Falsify-API\\..\\falsify-site.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

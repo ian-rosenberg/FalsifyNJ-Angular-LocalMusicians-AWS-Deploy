@@ -1,0 +1,6 @@
+@Falsify_Site.Server_HostAddress = http://localhost:5013
+
+GET {{Falsify_Site.Server_HostAddress}}/
+Accept: application/json
+
+###
